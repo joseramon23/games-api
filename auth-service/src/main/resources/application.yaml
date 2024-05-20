@@ -1,5 +1,5 @@
 jwt:
-  secret: sdkafodajgfojfoekfokfoamsodfmaomwfowmpaspfdsofkewfoe
+  secret: sdkafodajgfojfoekfokfoamsodfmaomwfowmpaspfdsofkewfoebibhibhbihbihbihbviiyhviobjnnjhbhihjn
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/users
