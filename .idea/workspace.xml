@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fabf1bca-8c25-471a-843b-63fa447b14c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/games-api/game-service-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/games-api/game-service-api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/controller/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/controller/impl/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/entities/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/commons/entities/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/repositories/GameRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/repositories/GameRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/services/GameService.java" beforeDir="false" afterPath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/services/impl/GameServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Curso_Spring.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,22 +22,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2gjNhACmg5Csf5bi4uycUqBYV5D" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/joseramonportillo/Dev/Curso_Spring"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/joseramonportillo/Dev/Curso_Spring&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
