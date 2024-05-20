@@ -28,7 +28,7 @@ public class GameController implements GameApi {
     }
 
     @Override
-    public ResponseEntity<ArrayList<Game>> getGames(ArrayList<Game> games) {
+    public ResponseEntity<ArrayList<Game>> getGames() {
         return ResponseEntity.ok(this.gameService.getGames());
     }
 

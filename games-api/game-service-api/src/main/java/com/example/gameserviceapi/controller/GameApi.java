@@ -14,7 +14,7 @@ public interface GameApi {
     @GetMapping("/{id}")
     ResponseEntity<Game> getGameById(@PathVariable String id);
     @GetMapping
-    ResponseEntity<ArrayList<Game>> getGames(ArrayList<Game> games);
+    ResponseEntity<ArrayList<Game>> getGames();
     @PutMapping("/{id}")
     ResponseEntity<Game> updateGame(@PathVariable String id, Game game);
     @DeleteMapping("/{id}")
