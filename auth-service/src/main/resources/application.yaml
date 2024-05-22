@@ -1,5 +1,7 @@
 jwt:
   secret: sdkafodajgfojfoekfokfoamsodfmaomwfowmpaspfdsofkewfoebibhibhbihbihbihbviiyhviobjnnjhbhihjn
+server:
+  port: 8081
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/users
@@ -7,7 +9,7 @@ spring:
     password: 1234
   jpa:
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
 loggin:
   level:
     org:
