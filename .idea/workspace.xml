@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fabf1bca-8c25-471a-843b-63fa447b14c2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/service/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/example/apigateway/service/AuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/controller/GameApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/controller/GameApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/controller/impl/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/controller/impl/GameController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/services/impl/GameServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/games-api/game-service-api/src/main/java/com/example/gameserviceapi/services/impl/GameServiceImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="fabf1bca-8c25-471a-843b-63fa447b14c2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
