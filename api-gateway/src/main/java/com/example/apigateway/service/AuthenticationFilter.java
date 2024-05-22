@@ -10,10 +10,15 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 @Component
 public class AuthenticationFilter extends AbstractGatewayFilterFactory<AuthenticationFilter.Config> {
     private final RouterValidator validator;
     private final JwtUtils jwtUtils;
+    private final Logger logger = LoggerFactory.getLogger(AuthenticationFilter.class);
+
 
     public AuthenticationFilter(RouterValidator routerValidator, JwtUtils jwtUtils) {
         super(Config.class);
@@ -49,8 +54,10 @@ public class AuthenticationFilter extends AbstractGatewayFilterFactory<Authentic
                         .header("userIdRequest", jwtUtils.extractUserId(authHeader).toString())
                         .build();
 
+                logger.info("userIdRequest header: {}", serverHttpRequest.getHeaders().get("userIdRequest"));
             }
-                return chain.filter(exchange.mutate().request(serverHttpRequest).build());
+
+            return chain.filter(exchange.mutate().request(serverHttpRequest).build());
         });
     }
 
