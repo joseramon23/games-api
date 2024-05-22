@@ -5,7 +5,7 @@ import com.example.gameserviceapi.commons.entities.Game;
 import java.util.ArrayList;
 
 public interface GameService {
-    Game saveGame(Game gameRequest);
+    Game saveGame(String userId, Game gameRequest);
 
     Game getGameById(String id);
 
